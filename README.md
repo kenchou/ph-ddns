@@ -5,6 +5,13 @@ update peanuthull DDNS
         ph-ddns.sh [config]
 
 
+Install
+-------
+
+    git clone git@github.com:kenchou/ph-ddns.git
+    cp config.sample config
+
+
 Configuration
 -------------
 
