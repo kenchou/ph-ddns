@@ -9,7 +9,7 @@ update peanuthull DDNS
 定时运行可以使用 crontab, 10-15分钟比较合适。
 
     crontab -e
-    1/10 * * * * /path/to/ph-ddns.sh
+    */10 * * * * /path/to/ph-ddns.sh
 
 
 Install
