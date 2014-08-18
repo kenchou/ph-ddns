@@ -19,7 +19,7 @@ IP=`$CMD_GET_IP`
 if [[ ( -f "$OLD_IP" ) && ( "$IP" = "`cat $OLD_IP`" ) ]]
 then
     # IP No Change.
-    echo "$IP IP No change."
+    [[ $DEBUG -ne 0 ]] && echo "$IP IP No change."
     exit 0
 fi
 
