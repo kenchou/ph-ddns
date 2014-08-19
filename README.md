@@ -16,7 +16,7 @@ update peanuthull DDNS
 
 /path/to/ 改为你的 ph-ddns.sh 所在路径。
 
-关于 crontab 配置文件的格式，请参阅 linux man 手册 ```man 5 crontab```
+关于 crontab 配置文件的格式，请参阅 linux man 手册 `man 5 crontab`
 
 
 Install
