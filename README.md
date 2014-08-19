@@ -10,12 +10,13 @@ update peanuthull DDNS
 
 定时运行可以使用 crontab, 一般定 10-15 分钟比较合适。
 
+
     crontab -e
     */10 * * * * /path/to/ph-ddns.sh
 
 /path/to/ 改为你的 ph-ddns.sh 所在路径。
 
-关于 crontab 配置文件的格式，请参阅 linux man 手册 <code>man 5 crontab</code>
+关于 crontab 配置文件的格式，请参阅 linux man 手册 ```man 5 crontab```
 
 
 Install
