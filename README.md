@@ -1,4 +1,4 @@
-update peanuthull DDNS
+Update peanuthull DDNS
 ======================
 
 更新花生壳 DDNS。
@@ -38,5 +38,5 @@ Configuration
 配置 | 说明
 ----|-----
 IP_URL | 获取公网IP的服务
-AUTHROIZATION | 花生壳的身份认证 Key，username:password 做 base64 encode, 详情见 [文档:花生壳:http协议说明](http://open.oray.com/wiki/doku.php?id=%E6%96%87%E6%A1%A3:%E8%8A%B1%E7%94%9F%E5%A3%B3:http%E5%8D%8F%E8%AE%AE%E8%AF%B4%E6%98%8E)
+AUTHROIZATION | 花生壳的身份认证 Key，username:password 做 base64 encode, 详情见 [文档:花生壳:http协议说明](http://service.oray.com/question/3820.html)
 DEBUG | 非0输出更多的信息
